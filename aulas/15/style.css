@@ -1,0 +1,53 @@
+body{
+  font-size: 25px;
+  font-family: Helvetica;
+}
+
+input {
+  padding: 13px 90px 13px 12px;
+  background-color:  #f0e7e7;
+  font-size: 13px;
+  border: none;
+  color: black;
+}
+
+.pickup-input {
+  display: block;
+}
+
+.destination-input {
+  display: block;
+  margin-top: 4px;
+}
+
+.first-button {
+  margin-top: 18px;
+  background-color: black;
+  color: white;
+  padding: 11px 16px;
+  border: none;
+
+}
+
+.second-button {
+  background-color: #f0e7e7;
+  color: black;
+  padding: 11px 16px;
+  border:none;
+}
+
+.title-text {
+  margin-bottom: 18px;
+}
+
+button {
+  transition: 0.15s;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:active {
+  opacity: 0.9;
+}

@@ -1,0 +1,18 @@
+.new-button {
+  background-color: green;
+  color: white;
+  padding: 20px 20px;
+  width: 400px;
+  font-size: 30px;
+  box-shadow: 20px 20px 5px black;
+  margin-top: 0px;
+  transition: 0.15s;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.new-button:active {
+  margin-top: 20px;
+  margin-left: 20px;
+  box-shadow: none;
+}

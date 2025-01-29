@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+}
+
+div { 
+  width: fit-content;
+  margin: 20px 0 0 15px;
+}
+
+h1 {
+  margin: 2px 30px 10px 2px;
+  font-size: 34px;
+}
+
+input {
+  display: block;
+  padding: 8px 35px 8px 15px;
+  width: 340px;
+  font-size: 15px;
+  border: none;
+  margin-bottom: 5px;
+  background-color: rgb(247, 243, 243);
+  color: gray;
+}
+
+button {
+  padding: 15px 20px;
+  margin-top: 20px;
+  font-size: 14px;
+  transition: 0.15s;
+}
+
+.btn1 {
+  background-color: black;
+  color: white;
+  font-weight: 500;
+  border: none;
+}
+
+.btn2 {
+  border: none;
+  margin-left: 15px;
+  font-weight: 500;
+}
+
+.main {
+  display: flex;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:active {
+  opacity: 0.9;
+}

@@ -1,0 +1,49 @@
+body {
+  text-align: center;
+}
+
+p {
+  font-family: arial;
+  text-align: center;
+  
+}
+
+.first-line {
+  color: red;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.second-line {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top:  0;
+  margin-bottom: 0;
+  line-height: 1.50;
+}
+
+.third-line {
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1;
+}
+
+.fourth-line {
+  font-size: 20px;
+  margin-top: 0;
+  line-height: 2.5;
+}
+
+.buy-button {
+  background-color: blue;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  font-size: 18px;
+  border-radius: 25px;
+  font-weight: bold;
+  
+
+}

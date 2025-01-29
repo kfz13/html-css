@@ -1,0 +1,54 @@
+.main-box {
+  border: solid 1px black;
+  width: 300px;
+  height: 250px;
+  text-align: center;
+  background-color: rgba(95, 114, 201, 0.952);
+}
+
+.main-box p {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.email-input, .pass-input, .login-button {
+  display: block;
+  border: none;
+  border-radius: 1px;
+}
+
+.input-box {
+  margin-bottom: 20px;
+  padding-left: 44px ;
+}
+
+.login-button {
+  margin-left: 70px;
+  margin-top: 6px;
+}
+
+.email-input {
+  margin-bottom: 6px;
+  font-size: 16px;
+  
+}
+
+.pass-input {
+  font-size: 16px;
+ 
+}
+
+.info-box .forgot-text {
+  color: white;
+  display: inline-block;
+  font-size: 12px;
+  padding-right: 10px;
+}
+
+.info-box .create-text {
+  color: white;
+  display: inline-block;
+  font-size: 12px;
+}

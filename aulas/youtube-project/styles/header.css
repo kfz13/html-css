@@ -1,0 +1,151 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 55px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 65px;
+  background-color: white;
+  border-bottom: solid 1px lightgray;
+  z-index: 100;
+}
+
+/* LEFT SECTION */
+
+.left-section {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.menu-left {
+  width: 24px;
+  padding-left: 29px;
+  padding-right: 15px;
+  cursor: pointer;
+}
+
+.youtube-logo {
+  width: 90px;
+  cursor: pointer;
+  padding-left: 8px;
+}
+
+/* MIDDLE SECTION */
+
+.middle-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  max-width: 470px;
+  margin-left: 60px;
+  
+}
+
+.search-box {
+  flex: 1;
+  width: 340px;
+  max-width: 340px;
+  min-width: 200px;
+  font-size: 16px;
+  border: solid 0.5px gray;
+  border-radius: 4px; 
+  height: 40px;
+  border: solid 1px rgb(204, 204, 204);
+  padding-left: 10px;
+  
+}
+
+
+.search-box::placeholder {
+  padding-left: 1px;
+  font-family: 'Roboto', Arial;
+}
+
+.search-button {
+  padding: 3px 15px;
+  margin-left: -3px;
+  height: 44px;
+  border: solid 1px rgb(204, 204, 204);
+  cursor: pointer;
+}
+
+.search-button-img {
+  width: 24px;
+  object-fit: contain;
+  display: flex;
+  cursor: pointer;
+}
+
+.voice-button {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  margin-left: 10px; 
+  width: 45px; 
+  height: 45px;
+  border: none;
+  border-radius: 50%; 
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.voice-button-img {
+  width: 24px;
+  object-fit: contain;
+}
+
+/* Right Section */
+
+.right-section {
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 20px;
+  flex-shrink: 0;
+  
+}
+
+.upload-icon {
+  width: 24px;
+  cursor: pointer;
+}
+
+.youtube-apps {
+  width: 24px;
+  cursor: pointer;
+}
+
+.notifications-icon {
+  width: 24px;
+  cursor: pointer;
+}
+
+.profile-img {
+  cursor: pointer;
+}
+
+.notification {
+  position: relative;
+}
+
+.notification-alert {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: rgb(214, 3, 3);
+  color: white;
+  font-size: 14px;
+  width: 13px;
+  text-align: center;
+  border-radius: 10px;
+  
+}
+
+
+

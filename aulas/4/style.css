@@ -1,0 +1,28 @@
+body {
+  background-color: rgb(204, 151, 151); 
+}
+
+.click-button {
+  background-color: rgb(69, 54, 209);
+  color: white;
+  border: solid 1px yellow;
+  padding: 15px 25px;
+  box-shadow: 3px 3px 5px black;
+  transition: 0.15s;
+  cursor: pointer;
+}
+
+.click-button:hover {
+  opacity: 0.8;
+  background-color: white;
+  color: rgb(69, 54, 209);
+}
+
+.click-button:active {
+  background-color: rgb(69, 54, 209);
+  color: white;
+  opacity: 0.9;
+  margin-top: 3px;
+  margin-left: 3px;
+  box-shadow: none;
+}

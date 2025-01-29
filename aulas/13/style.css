@@ -1,0 +1,15 @@
+input {
+  font-size: 18px;
+}
+
+.entrada1 {
+  display: block;
+  color: red;
+  
+}
+
+.entrada2 {
+  display: block;
+  margin: 4px 0;
+  color: green;
+}

@@ -1,0 +1,57 @@
+body{
+  background-color: purple;
+}
+
+.profile-img-box, .profile-stats, .div-button {
+  display: inline-block;
+  vertical-align: top;
+
+}
+
+.profile-img-box {
+  
+  padding: 10px 10px;
+}
+.profile-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 500px;
+}
+
+.profile-stats {
+  margin-top: 22px;
+}
+.profile-stats p{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.div-button {
+  padding: 30px 0 0 160px;
+}
+
+.follow-button {
+  background-color: rgb(127, 127, 241);
+  color: white;
+  padding: 12px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.profile-stats p[profile-info], .profile-stats p[profile-info2] {
+  color: rgb(177, 131, 131);
+}
+
+.profile-box {
+  box-shadow: 0 0 3px black;
+  width: 440px;
+  margin-bottom: 4px;
+  background-color: orange;
+  border-radius: 8px;
+}
+
+

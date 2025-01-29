@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background: linear-gradient(90deg, red, blue, black);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+header img {
+  width: 60px;
+  height: 60px;
+  border-radius: 40px;
+  object-fit: cover;
+
+}
+
+header div{
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+header p {
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.add-button {
+  background-color: rgb(108, 108, 243);
+  color: white;
+}
+
+.message-button {
+  background-color: rgb(241, 237, 237);
+  color: black;
+}
+
+button {
+  border: none;
+  margin: 0 5px;
+  padding: 12px 20px;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:active {
+  opacity: 0.9;
+}
+
+.div1, .div2 {
+  width: 82px;
+  position: fixed;
+  background: linear-gradient(180deg, red, blue, black);
+  top: 80px;
+  bottom: 0;
+}
+
+.div1 {
+  background-color: yellow;
+}
+
+.div2 {
+  background-color: brown;
+  right: 0;
+}
+
+.divx {
+  display: inline-block;
+  position: relative;
+  top: 55px;
+  left: 60px;
+  color: white;
+  background-color: red;
+  cursor: default;
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  border-radius: 40px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  z-index: 100;
+}
+
+body {
+  height: 3000px;
+}

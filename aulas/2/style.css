@@ -1,0 +1,10 @@
+.link-novo{
+  color:black;
+  transition: opacity 0.15s, color 0.15s;
+}
+
+.link-novo:hover{
+  color: red;
+  opacity: 0.8;
+}
+

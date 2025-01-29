@@ -1,0 +1,68 @@
+.main-div {
+  display: grid;
+  grid-template-columns: 1fx 1fx 1fx;
+}
+
+.profile-preview {
+  box-shadow: 0 0 3px black;
+  width: 200px;
+  display: inline-block;
+  margin-right: 3px;
+}
+
+.middle-stats p {
+  display: inline-block;
+  
+}
+
+.profile-stats p {
+  font-family: 'Roboto', Arial;
+  margin: 0;
+  vertical-align: top;
+
+}
+
+.profile-img1 {
+  object-fit: cover;
+  width: 200px;
+  height: 205px;
+  margin-bottom: 6px;
+
+}
+
+.button1 {
+  padding: 4px 0 10px 10px;
+}
+
+.add-button {
+  background-color: rgb(112, 112, 206);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.profile-img2 {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50px;
+
+}
+
+.mutual-friends {
+  line-height: 50px;
+}
+
+.middle-stats {
+  padding: 10px 0px 0px 10px;
+
+}
+
+.user-name {
+  padding: 10px 0 0 10px;
+  line-height: 4px;
+}

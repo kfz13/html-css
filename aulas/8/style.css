@@ -1,0 +1,22 @@
+body {
+  font-family: Arial;
+}
+
+.title-text {
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+.sub-title {
+  color: red;
+  font-size: 30px;
+  margin-top: 0;
+  line-height: 1.5;
+  transition: 0.15s;
+ }
+
+ .sub-title:hover {
+  text-decoration: underline;
+ }
+

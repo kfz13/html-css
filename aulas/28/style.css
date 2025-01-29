@@ -1,0 +1,43 @@
+.div1 {
+  background-color: blue;
+}
+
+.div2 {
+  background-color: green;
+}
+
+.div3 {
+  background-color:yellow;
+}
+
+.div4 {
+  background-color: black;
+}
+
+.div5 {
+  background-color: orange;
+}
+
+.div6 {
+  background-color: red;
+}
+
+.div7 {
+  background-color: brown;
+}
+
+.div8 {
+  background-color: pink;
+}
+
+.container div {
+  height: 140px;
+  width: 200px;
+}
+
+.container {
+  display: flex;
+  border: 1px solid black;
+  gap: 10px;
+  width: 800px;
+}
