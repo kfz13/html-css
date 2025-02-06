@@ -53,7 +53,7 @@ article {
 }
 
 .pt2 {
-  background: black url('/2/images/background001.jpg') center center no-repeat fixed;
+  background: black url('images/background001.jpg') center center no-repeat fixed;
   background-size: cover;
   padding: 25px;
 }
@@ -66,7 +66,7 @@ article {
 }
 
 .pt4 {
-  background: black url('/2/images/background002.jpg') center center no-repeat fixed;
+  background: black url('images/background002.jpg') center center no-repeat fixed;
   background-size: cover;
   padding: 25px;
 }
